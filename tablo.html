@@ -3,29 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tablo1</title>
+    <title>Kart</title>
 </head>
 <body>
-     <h1>Tablo</h1>  
-     <table border="1" style="width: 100;">
-        <tr><!--1. satır başladı-->
-            <th>Sınıf</th><!--başlık hücresi oluşturur( 1.boşluk hücresi)-->
-            <th>Ad</th><!--2.boşluk hücresi-->
-            <th>Soyad</th><!--3.bosluk hücresi-->
-        </tr><!--1.satır bitti-->
-        <tr><!--2.satır başladı-->
-            <td>11A</td><!--2.satırın 1 hücresi-->
-            <td>Rabia</td><!--2.satırın 2. hücresi-->
-            <td>Akkuş</td><!--2. satırın 3.hücresi-->
-        </tr><!--2. satır bitti-->
-        <tr><!--3. satır başladı-->
-            <td>11A</td><!--3. satırın 1. hücresi-->
-            <td>Sumeyra</td><!--3. satırın 2. hücresi-->
-            <td>Muti</td><!--3. satırın 3. hücresi-->
-        </tr><!--3.satır bitti-->
-     </table>
-  
-
-
+    <h1>Resimli Tablo Örneği</h1>
+    <table border="2" width="350">
+        <caption><em>Öğrenci Kimlik Kartı Örneği</em></caption>
+        <tr>
+            <th colspan="3"><img src="res/images (1).jpg" alt="meb logo" width="70" />
+            HNK Öğrenci Kartı
+            <img src="res/hnk_logo_kucuk.jpg" 
+            title="nisa"
+            alt="hnk logo"
+             width="50" 
+             />
+            </th>
+        </tr>
+        <tr>
+            <td rowspan="4">
+                <img src="res/66973161-kadın-simgesi-kadın-web-işareti-düz-sanat-nesnesi-kızın-siyah-ve-beyaz-siluet-avatar-resmi.jpg" title="nisa" alt="logo" width="100">
+            </td>
+            <td>ADI</td>
+            <td>Nisa</td>
+        </tr>
+        <tr>
+            <td>SOYADI</td>
+            <td>Yılbur</td>
+        </tr>
+        <tr>
+            <td>SINIFI</td>
+            <td>11/A</td>
+        </tr>
+        <tr>
+            <td>OKUL NO</td>
+            <td>847</td>
+        </tr>
+    </table>
 </body>
 </html>
